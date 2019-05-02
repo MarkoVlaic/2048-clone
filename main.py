@@ -3,8 +3,9 @@ from renderer import Renderer
 
 board = Board()
 renderer = Renderer(board)
-renderer.display_in_console()
 
+'''
+renderer.display_in_console()
 quit = False
 
 while not quit:
@@ -14,3 +15,4 @@ while not quit:
         renderer.display_in_console()
     except:
         quit = True
+'''

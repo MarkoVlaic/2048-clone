@@ -11,6 +11,12 @@ class Board:
     def step(self, dir):
         '''
         Moves all fields in the direction specified by dir and adds the adjacent ones if they are equal
+
+        direction:
+            0 - up
+            1 - down
+            2 - left
+            3 - right
         '''
 
         self.mat = self.move(dir, self.mat)
